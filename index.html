@@ -45,6 +45,7 @@
     <!--====== Responsive css ======-->
     <link rel="stylesheet" href="css/responsive.css">
 
+
 </head>
 
 <body>
@@ -86,18 +87,18 @@
                                 <span class="follow-us">Follow Us :</span>
                                 <ul>
                                     <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                                    <!-- <li><a href="#"><i class="fa fa-youtube"></i></a></li> -->
                                     <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                     <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                                     <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                                 </ul>
                             </div> <!-- social -->
-                            <div class="login-register">
+                            <!-- <div class="login-register">
                                 <ul>
                                     <li><a href="register.html">Login</a></li>
                                     <li><a href="register.html">Register</a></li>
                                 </ul>
-                            </div>
+                            </div> -->
                         </div> <!-- header right -->
                     </div>
                 </div> <!-- row -->
@@ -173,23 +174,6 @@
 
     <!--====== HEADER PART ENDS ======-->
 
-    <!--====== SEARCH BOX PART START ======-->
-
-    <div class="search-box">
-        <div class="search-form">
-            <div class="closebtn">
-                <span></span>
-                <span></span>
-            </div>
-            <form action="#">
-                <input type="text" placeholder="Search by keyword">
-                <button><i class="fa fa-search"></i></button>
-            </form>
-        </div> <!-- search form -->
-    </div>
-
-    <!--====== SEARCH BOX PART ENDS ======-->
-
     <!--====== SLIDER PART START ======-->
 
     <section id="slider-part" class="slider-active ">
@@ -260,7 +244,7 @@
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="category-text pt-40">
-                            <h2>Top Projects</h2>
+                            <h2>Project's We Work's</h2>
                         </div>
                     </div>
                     <div class="col-lg-6 offset-lg-1 col-md-8 offset-md-2 col-sm-8 offset-sm-2 col-8 offset-2">
@@ -284,7 +268,7 @@
                                             <img src="images/all-icon/ctg-2.png" alt="Icon">
                                         </span>
                                         <span class="cont">
-                                            <span>project 2</span>
+                                            <span>Project 2</span>
                                         </span>
                                     </span> <!-- single category -->
                                 </a>
@@ -308,12 +292,35 @@
                                             <img src="images/all-icon/ctg-1.png" alt="Icon">
                                         </span>
                                         <span class="cont">
-                                            <span>project 4</span>
+                                            <span>Project 4</span>
                                         </span>
                                     </span> <!-- single category -->
                                 </a>
                             </div>
-                            
+                            <div class="col-lg-4">
+                                <a href="#">
+                                    <span class="single-category text-center color-2">
+                                        <span class="icon">
+                                            <img src="images/all-icon/ctg-2.png" alt="Icon">
+                                        </span>
+                                        <span class="cont">
+                                            <span>Project 5</span>
+                                        </span>
+                                    </span> <!-- single category -->
+                                </a>
+                            </div>
+                            <div class="col-lg-4">
+                                <a href="#">
+                                    <span class="single-category text-center color-3">
+                                        <span class="icon">
+                                            <img src="images/all-icon/ctg-3.png" alt="Icon">
+                                        </span>
+                                        <span class="cont">
+                                            <span>Project 6</span>
+                                        </span>
+                                    </span> <!-- single category -->
+                                </a>
+                            </div>
                         </div> <!-- category slide -->
                     </div>
                 </div> <!-- row -->
@@ -335,7 +342,7 @@
                     </div> <!-- section title -->
                     <div class="about-cont">
                         <p>Root Tronics Technologies is a leading IT services and consulting company. We provide solutions and services across application and technology modernization, cloud enablement, data management, automation and assurance services. For over 5 years now, we have been co-authoring transformational success for leading global enterprises and promising start-ups alike – across geographies and industry verticals.</p>
-                        <a href="#" class="main-btn mt-55">Learn More</a>
+                        <a href="about.html" class="main-btn mt-55">Learn More</a>
                     </div>
                 </div> <!-- about cont -->
                 <div class="col-lg-6 offset-lg-1">
@@ -347,7 +354,7 @@
                             <li>
                                 <div class="single-event">
                                     <span><i class="fa fa-calendar"></i> -- -- ----</span>
-                                    <a href="events-single.html">
+                                    <a href="#">
                                         <h4>Comming soon</h4>
                                     </a>
                                     <span><i class="fa fa-clock-o"></i> --:-- Am - --:-- Pm</span>
@@ -357,7 +364,7 @@
                             <li>
                                 <div class="single-event">
                                     <span><i class="fa fa-calendar"></i> -- -- ----</span>
-                                    <a href="events-single.html">
+                                    <a href="#">
                                         <h4>Comming soon</h4>
                                     </a>
                                     <span><i class="fa fa-clock-o"></i> --:-- Am - --:-- Pm</span>
@@ -367,7 +374,7 @@
                             <li>
                                 <div class="single-event">
                                     <span><i class="fa fa-calendar"></i> -- -- ----</span>
-                                    <a href="events-single.html">
+                                    <a href="#">
                                         <h4>Comming soon</h4>
                                     </a>
                                     <span><i class="fa fa-clock-o"></i> --:-- Am - --:-- Pm</span>
@@ -398,45 +405,21 @@
                     </div> <!-- section title -->
                 </div>
             </div> <!-- row -->
-            <div class="row course-slide mt-30">
+            <div id="services-cards" class="row course-slide mt-30">
                 <div class="col-lg-4">
                     <div class="single-course">
                         <div class="thum">
                             <div class="image">
                                 <img src="images/course/cu-1.jpg" alt="Course">
                             </div>
-                            <div class="price">
+                            <!-- <div class="price">
                                 <span>Free</span>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="cont">
-                            <ul>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                            </ul>
-                            <span>(20 Reviews)</span>
-                            <a href="courses-single.html">
-                                <h4>Learn basic javascript from start for beginner</h4>
+                            <a href="#">
+                                <h4>DIGITAL SERVICESS</h4>
                             </a>
-                            <div class="course-teacher">
-                                <div class="thum">
-                                    <a href="#"><img src="images/course/teacher/t-1.jpg" alt="teacher"></a>
-                                </div>
-                                <div class="name">
-                                    <a href="#">
-                                        <h6>Mark anthem</h6>
-                                    </a>
-                                </div>
-                                <div class="admin">
-                                    <ul>
-                                        <li><a href="#"><i class="fa fa-user"></i><span>31</span></a></li>
-                                        <li><a href="#"><i class="fa fa-heart"></i><span>10</span></a></li>
-                                    </ul>
-                                </div>
-                            </div>
                         </div>
                     </div> <!-- single course -->
                 </div>
@@ -444,40 +427,16 @@
                     <div class="single-course">
                         <div class="thum">
                             <div class="image">
-                                <img src="images/course/cu-2.jpg" alt="Course">
+                                <img src="images/course/cu-1.jpg" alt="Course">
                             </div>
-                            <div class="price">
+                            <!-- <div class="price">
                                 <span>Free</span>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="cont">
-                            <ul>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                            </ul>
-                            <span>(20 Reviews)</span>
-                            <a href="courses-single.html">
-                                <h4>Learn basic javascript from start for beginner</h4>
+                            <a href="#">
+                                <h4>ENTERPRISE APPLIC...</h4>
                             </a>
-                            <div class="course-teacher">
-                                <div class="thum">
-                                    <a href="#"><img src="images/course/teacher/t-2.jpg" alt="teacher"></a>
-                                </div>
-                                <div class="name">
-                                    <a href="#">
-                                        <h6>Mark anthem</h6>
-                                    </a>
-                                </div>
-                                <div class="admin">
-                                    <ul>
-                                        <li><a href="#"><i class="fa fa-user"></i><span>31</span></a></li>
-                                        <li><a href="#"><i class="fa fa-heart"></i><span>10</span></a></li>
-                                    </ul>
-                                </div>
-                            </div>
                         </div>
                     </div> <!-- single course -->
                 </div>
@@ -485,40 +444,16 @@
                     <div class="single-course">
                         <div class="thum">
                             <div class="image">
-                                <img src="images/course/cu-3.jpg" alt="Course">
+                                <img src="images/course/cu-1.jpg" alt="Course">
                             </div>
-                            <div class="price">
+                            <!-- <div class="price">
                                 <span>Free</span>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="cont">
-                            <ul>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                            </ul>
-                            <span>(20 Reviews)</span>
-                            <a href="courses-single.html">
-                                <h4>Learn basic javascript from start for beginner</h4>
+                            <a href="#">
+                                <h4>CLOUD SERVICES</h4>
                             </a>
-                            <div class="course-teacher">
-                                <div class="thum">
-                                    <a href="#"><img src="images/course/teacher/t-3.jpg" alt="teacher"></a>
-                                </div>
-                                <div class="name">
-                                    <a href="#">
-                                        <h6>Mark anthem</h6>
-                                    </a>
-                                </div>
-                                <div class="admin">
-                                    <ul>
-                                        <li><a href="#"><i class="fa fa-user"></i><span>31</span></a></li>
-                                        <li><a href="#"><i class="fa fa-heart"></i><span>10</span></a></li>
-                                    </ul>
-                                </div>
-                            </div>
                         </div>
                     </div> <!-- single course -->
                 </div>
@@ -526,40 +461,16 @@
                     <div class="single-course">
                         <div class="thum">
                             <div class="image">
-                                <img src="images/course/cu-4.jpg" alt="Course">
+                                <img src="images/course/cu-1.jpg" alt="Course">
                             </div>
-                            <div class="price">
+                            <!-- <div class="price">
                                 <span>Free</span>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="cont">
-                            <ul>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                            </ul>
-                            <span>(20 Reviews)</span>
-                            <a href="courses-single.html">
-                                <h4>Learn basic javascript from start for beginner</h4>
+                            <a href="#">
+                                <h4>APPLICATION SERVICES</h4>
                             </a>
-                            <div class="course-teacher">
-                                <div class="thum">
-                                    <a href="#"><img src="images/course/teacher/t-4.jpg" alt="teacher"></a>
-                                </div>
-                                <div class="name">
-                                    <a href="#">
-                                        <h6>Mark anthem</h6>
-                                    </a>
-                                </div>
-                                <div class="admin">
-                                    <ul>
-                                        <li><a href="#"><i class="fa fa-user"></i><span>31</span></a></li>
-                                        <li><a href="#"><i class="fa fa-heart"></i><span>10</span></a></li>
-                                    </ul>
-                                </div>
-                            </div>
                         </div>
                     </div> <!-- single course -->
                 </div>
@@ -567,40 +478,50 @@
                     <div class="single-course">
                         <div class="thum">
                             <div class="image">
-                                <img src="images/course/cu-5.jpg" alt="Course">
+                                <img src="images/course/cu-1.jpg" alt="Course">
                             </div>
-                            <div class="price">
+                            <!-- <div class="price">
                                 <span>Free</span>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="cont">
-                            <ul>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                            </ul>
-                            <span>(20 Reviews)</span>
-                            <a href="courses-single.html">
-                                <h4>Learn basic javascript from start for beginner</h4>
+                            <a href="#">
+                                <h4>IT INFRASTRUCTURE</h4>
                             </a>
-                            <div class="course-teacher">
-                                <div class="thum">
-                                    <a href="#"><img src="images/course/teacher/t-5.jpg" alt="teacher"></a>
-                                </div>
-                                <div class="name">
-                                    <a href="#">
-                                        <h6>Mark anthem</h6>
-                                    </a>
-                                </div>
-                                <div class="admin">
-                                    <ul>
-                                        <li><a href="#"><i class="fa fa-user"></i><span>31</span></a></li>
-                                        <li><a href="#"><i class="fa fa-heart"></i><span>10</span></a></li>
-                                    </ul>
-                                </div>
+                        </div>
+                    </div> <!-- single course -->
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-course">
+                        <div class="thum">
+                            <div class="image">
+                                <img src="images/course/cu-1.jpg" alt="Course">
                             </div>
+                            <!-- <div class="price">
+                                <span>Free</span>
+                            </div> -->
+                        </div>
+                        <div class="cont">
+                            <a href="#">
+                                <h4>IT PROFESSIONAL</h4>
+                            </a>
+                        </div>
+                    </div> <!-- single course -->
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-course">
+                        <div class="thum">
+                            <div class="image">
+                                <img src="images/course/cu-1.jpg" alt="Course">
+                            </div>
+                            <!-- <div class="price">
+                                <span>Free</span>
+                            </div> -->
+                        </div>
+                        <div class="cont">
+                            <a href="#">
+                                <h4>CYBERSECURITY</h4>
+                            </a>
                         </div>
                     </div> <!-- single course -->
                 </div>
@@ -756,102 +677,10 @@
 
     <!--====== TEACHERS PART ENDS ======-->
 
-    <!--====== PUBLICATION PART START ======-->
-
-    <section id="publication-part" class="pt-115 pb-120 gray-bg">
-        <div class="container">
-            <div class="row align-items-end">
-                <div class="col-lg-6 col-md-8 col-sm-7">
-                    <div class="section-title pb-60">
-                        <h5>Projects</h5>
-                        <h2>Completed Projects</h2>
-                    </div> <!-- section title -->
-                </div>
-                <div class="col-lg-6 col-md-4 col-sm-5">
-                    <div class="products-btn text-right pb-60">
-                        <a href="#" class="main-btn">All Projects</a>
-                    </div> <!-- products btn -->
-                </div>
-            </div> <!-- row -->
-            <div class="row justify-content-center">
-                <div class="col-lg-3 col-md-6 col-sm-8">
-                    <div class="single-publication mt-30 text-center">
-                        <div class="image">
-                            <img src="images/publication/p-1.jpg" alt="Publication">
-                        </div>
-                        <div class="content pt-10">
-                            <h5 class="book-title"><a href="#">Stones The Road </a></h5>
-                            <p class="writer-name"><span>By</span> Scott Trench</p>
-                            <div class="price-btn d-flex align-items-center justify-content-between">
-                                <!-- <div class="price pt-20">
-                                    <span class="discount-price">$250</span>
-                                    <span class="normal-price">$200</span>
-                                </div> -->
-                                <div class="button pt-10">
-                                    <a href="#" class="main-btn"><i class="fa fa-eye"></i> View Details</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div> <!-- single publication -->
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-8">
-                    <div class="single-publication mt-30 text-center">
-                        <div class="image">
-                            <img src="images/publication/p-2.jpg" alt="Publication">
-                        </div>
-                        <div class="content pt-10">
-                            <h5 class="book-title"><a href="#">The Stranded </a></h5>
-                            <p class="writer-name"><span>By</span> Scott Trench</p>
-                            <div class="price-btn d-flex align-items-center justify-content-between">
-                                <div class="button pt-10">
-                                    <a href="#" class="main-btn"><i class="fa fa-eye"></i> View Details</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div> <!-- single publication -->
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-8">
-                    <div class="single-publication mt-30 text-center">
-                        <div class="image">
-                            <img src="images/publication/p-3.jpg" alt="Publication">
-                        </div>
-                        <div class="content pt-10">
-                            <h5 class="book-title"><a href="#">The Sicario </a></h5>
-                            <p class="writer-name"><span>By</span> Scott Trench</p>
-                            <div class="price-btn d-flex align-items-center justify-content-between">
-                                <div class="button pt-10">
-                                    <a href="#" class="main-btn"><i class="fa fa-eye"></i> View Details</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div> <!-- single publication -->
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-8">
-                    <div class="single-publication mt-30 text-center">
-                        <div class="image">
-                            <img src="images/publication/p-4.jpg" alt="Publication">
-                        </div>
-                        <div class="content pt-10">
-                            <h5 class="book-title"><a href="#">There Were None </a></h5>
-                            <p class="writer-name"><span>By</span> Scott Trench</p>
-                            <div class="price-btn d-flex align-items-center justify-content-between">
-                                <div class="button pt-10">
-                                    <a href="#" class="main-btn"><i class="fa fa-eye"></i> View Details</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div> <!-- single publication -->
-                </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
-    </section>
-
-    <!--====== PUBLICATION PART ENDS ======-->
-
     <!--====== TEASTIMONIAL PART START ======-->
 
     <section id="testimonial" class="bg_cover pt-115 pb-115" data-overlay="8"
-        style="background-image: url(images/bg-2.jpg)">
+        style="background-image: url(assets/bg-images/Testimonial.jpg)">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -871,10 +700,9 @@
                             </div>
                         </div>
                         <div class="testimonial-cont">
-                            <p>Aliquetn sollicitudirem quibibendum auci elit cons equat ipsutis sem nibh id elit. Duis
-                                sed odio sit amet sem nibh id elit sollicitudirem </p>
-                            <h6>Rubina Helen</h6>
-                            <span>Bsc, Engineering</span>
+                            <p>I appreciate your staffing services, which you have supported for our delivery team.</p>
+                            <h6>Infosys </h6>
+                            <!-- <span>Bsc, Engineering</span> -->
                         </div>
                     </div> <!-- single testimonial -->
                 </div>
@@ -887,10 +715,9 @@
                             </div>
                         </div>
                         <div class="testimonial-cont">
-                            <p>Aliquetn sollicitudirem quibibendum auci elit cons equat ipsutis sem nibh id elit. Duis
-                                sed odio sit amet sem nibh id elit sollicitudirem </p>
-                            <h6>Rubina Helen</h6>
-                            <span>Bsc, Engineering</span>
+                            <p>Thanks for your staffing services, which helped for our managed services</p>
+                            <h6>Techstar IT service PVT LTD</h6>
+                            <!-- <span>Bsc, Engineering</span> -->
                         </div>
                     </div> <!-- single testimonial -->
                 </div>
@@ -903,10 +730,39 @@
                             </div>
                         </div>
                         <div class="testimonial-cont">
-                            <p>Aliquetn sollicitudirem quibibendum auci elit cons equat ipsutis sem nibh id elit. Duis
-                                sed odio sit amet sem nibh id elit sollicitudirem </p>
-                            <h6>Rubina Helen</h6>
-                            <span>Bsc, Engineering</span>
+                            <p> I am happy with your staffing service, which accelerate to our product team</p>
+                            <h6>Intellect Desing Arena A Polaris group</h6>
+                            <!-- <span>Bsc, Engineering</span> -->
+                        </div>
+                    </div> <!-- single testimonial -->
+                </div>
+                <div class="col-lg-6">
+                    <div class="single-testimonial">
+                        <div class="testimonial-thum">
+                            <img src="images/testimonial/t-3.jpg" alt="Testimonial">
+                            <div class="quote">
+                                <i class="fa fa-quote-right"></i>
+                            </div>
+                        </div>
+                        <div class="testimonial-cont">
+                            <p> Thanks for your manpower staffing services, which helped our managed projects delivery team.</p>
+                            <h6>Fah Infotech</h6>
+                            <!-- <span>Bsc, Engineering</span> -->
+                        </div>
+                    </div> <!-- single testimonial -->
+                </div>
+                <div class="col-lg-6">
+                    <div class="single-testimonial">
+                        <div class="testimonial-thum">
+                            <img src="images/testimonial/t-3.jpg" alt="Testimonial">
+                            <div class="quote">
+                                <i class="fa fa-quote-right"></i>
+                            </div>
+                        </div>
+                        <div class="testimonial-cont">
+                            <p>I appreciate to your product Engineering team, which delivered to my ecommerce product.</p>
+                            <h6>MindTech I Solution</h6>
+                            <!-- <span>Bsc, Engineering</span> -->
                         </div>
                     </div> <!-- single testimonial -->
                 </div>
@@ -1029,32 +885,27 @@
             <div class="row patnar-slide">
                 <div class="col-lg-12">
                     <div class="single-patnar text-center mt-40">
-                        <img src="images/patnar-logo/p-1.png" alt="Logo">
+                        <img src="assets/clients/fah_infotech-logo.jpg" alt="Logo">
                     </div>
                 </div>
                 <div class="col-lg-12">
                     <div class="single-patnar text-center mt-40">
-                        <img src="images/patnar-logo/p-2.png" alt="Logo">
+                        <img src="assets/clients/infosys_logo.jpg" alt="Logo">
                     </div>
                 </div>
                 <div class="col-lg-12">
                     <div class="single-patnar text-center mt-40">
-                        <img src="images/patnar-logo/p-3.png" alt="Logo">
+                        <img src="assets/clients/intellect_logo.png" alt="Logo">
                     </div>
                 </div>
                 <div class="col-lg-12">
                     <div class="single-patnar text-center mt-40">
-                        <img src="images/patnar-logo/p-4.png" alt="Logo">
+                        <img src="assets/clients/mind-tech.png" alt="Logo">
                     </div>
                 </div>
                 <div class="col-lg-12">
                     <div class="single-patnar text-center mt-40">
-                        <img src="images/patnar-logo/p-2.png" alt="Logo">
-                    </div>
-                </div>
-                <div class="col-lg-12">
-                    <div class="single-patnar text-center mt-40">
-                        <img src="images/patnar-logo/p-3.png" alt="Logo">
+                        <img src="assets/clients/techstar_logo.png" alt="Logo">
                     </div>
                 </div>
             </div> <!-- row -->
@@ -1072,7 +923,7 @@
                     <div class="col-lg-5 col-md-6">
                         <div class="footer-about mt-40">
                             <div class="logo">
-                                <a href="#"><img src="images/logo-2.png" alt="Logo"></a>
+                                <a href="#"><img src="assets/logos/logo-ffoter.png" alt="Logo"></a>
                             </div>
                             <p>Root Tronics Technologies is a leading IT services and consulting company. We provide solutions and services across application and technology modernization, cloud enablement, data management, automation and assurance services.</p>
                             <ul class="mt-20">

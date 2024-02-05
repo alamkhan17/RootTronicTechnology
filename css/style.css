@@ -1794,6 +1794,8 @@ p {
     width: 100%;
     -webkit-transition: all 0.4s linear;
     transition: all 0.4s linear;
+    height: 251px;
+    object-fit: cover;
 }
 
 .single-course:hover .thum .image img {
@@ -1853,8 +1855,12 @@ p {
     color: #000;
     /* padding-top: 15px;
     padding-bottom: 40px; */
+    width: 100%;
     -webkit-transition: all 0.4s linear;
     transition: all 0.4s linear;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .single-course .cont h4:hover {

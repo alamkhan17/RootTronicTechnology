@@ -2102,6 +2102,8 @@ p {
     -webkit-transition: all 0.4s linear;
     transition: all 0.4s linear;
     width: 100%;
+    height: 300px;
+    object-fit: cover;
 }
 
 .single-teachers:hover .image img {

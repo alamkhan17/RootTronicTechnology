@@ -1191,7 +1191,7 @@ p {
 ======================================================*/
 
 .single-slider {
-    padding-bottom: 100px;
+    padding-bottom: 170px;
 }
 
 .slider-cont {
@@ -2338,6 +2338,8 @@ p {
 
 .single-testimonial .testimonial-thum img {
     border-radius: 5px;
+    height: 90px;
+    width: 90px;
 }
 
 .single-testimonial .testimonial-thum .quote {
@@ -2583,7 +2585,12 @@ p {
 .footer-address ul li .cont p {
     color: #fff;
 }
-
+.footer-address a {
+    color: #fff;
+}
+.footer-address a:hover {
+    color: #0289cf;
+}
 .footer-copyright {
     background-color: #021d3a;
 }

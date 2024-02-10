@@ -262,14 +262,14 @@ $(function() {
         autoplay: true,
         autoplaySpeed: 5000,
         speed: 800,
-        slidesToShow: 4,
+        slidesToShow: 5,
         slidesToScroll: 1,
         arrows: false,
         responsive: [
         {
           breakpoint: 1200,
           settings: {
-            slidesToShow: 4,
+            slidesToShow: 5,
             slidesToScroll: 1,
           }
         },

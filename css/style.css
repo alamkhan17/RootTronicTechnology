@@ -1794,7 +1794,7 @@ p {
     width: 100%;
     -webkit-transition: all 0.4s linear;
     transition: all 0.4s linear;
-    height: 251px;
+    height: 185px;
     object-fit: cover;
 }
 
@@ -1823,8 +1823,8 @@ p {
 }
 
 .single-course .cont {
-    padding-top: 28px;
-    padding-bottom: 34px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -1851,7 +1851,7 @@ p {
 
 .single-course .cont h4 {
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
     color: #000;
     /* padding-top: 15px;
     padding-bottom: 40px; */

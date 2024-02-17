@@ -162,7 +162,7 @@ $(function() {
         dots: false,
         infinite: true,
         speed: 800,
-        slidesToShow: 3,
+        slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 5000,
@@ -173,14 +173,14 @@ $(function() {
         {
           breakpoint: 1200,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 4,
             slidesToScroll: 1,
           }
         },
         {
           breakpoint: 992,
           settings: {
-            slidesToShow: 2,
+            slidesToShow: 3,
             slidesToScroll: 1,
           }
         },

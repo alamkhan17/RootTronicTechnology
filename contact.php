@@ -20,7 +20,7 @@
 
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
-        $recipient = "help.pixelcurve@gmail.com";
+        $recipient = "hr@rttechnologieslive.info";
 
         // Set the email subject.
         $subject = "$subject";

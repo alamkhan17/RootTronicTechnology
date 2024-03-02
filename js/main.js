@@ -411,8 +411,88 @@ $(function() {
         }
     });
 });
-
-
     
-    
+});
+$(document).ready(function() {
+  // Define data for each item
+  var itemsData = [
+      {
+          number: "01",
+          title: "Requirements Gathering and Analysis:",
+          description: "Working closely with the client to understand their business needs, goals, and requirements for the application."
+      },
+      {
+          number: "02",
+          title: "Architecture and Design:",
+          description: "Designing the architecture of the application to ensure scalability, reliability, and performance. Creating technical specifications and design documents."
+      },
+      {
+          number: "03",
+          title: "Development:",
+          description: "Full-stack development services covering frontend, backend, and database development. Utilization of modern development frameworks and technologies. Agile development methodologies to ensure flexibility and rapid iteration."
+      },
+      {
+          number: "04",
+          title: "Quality Assurance and Testing:",
+          description: "Implementing comprehensive testing strategies, including unit testing, integration testing, and end-to-end testing. Test automation to improve efficiency and reliability. Continuous integration and continuous deployment (CI/CD) pipelines to automate the testing and deployment process."
+      },
+      {
+          number: "05",
+          title: "Deployment and Infrastructure Management:",
+          description: "Setting up deployment environments (development, staging, production). Configuration and management of cloud infrastructure (AWS, Azure, Google Cloud, etc.). Containerization using Docker and orchestration with Kubernetes for scalability and manageability."
+      },
+      {
+          number: "06",
+          title: "Monitoring and Support:",
+          description: "Implementing monitoring solutions for performance monitoring and error tracking. Providing 24/7 support services to address issues and ensure uptime. Regular maintenance and updates to keep the application secure and up-to-date."
+      },
+      {
+          number: "07",
+          title: "Security:",
+          description: "Implementing security best practices to protect against common vulnerabilities. Conducting regular security audits and penetration testing. Ensuring compliance with industry standards and regulations (e.g., GDPR, HIPAA, PCI DSS)."
+      },
+      {
+          number: "08",
+          title: "Documentation and Knowledge Transfer:",
+          description: "Creating comprehensive documentation of the application architecture, codebase, and deployment procedures. Conducting knowledge transfer sessions to empower the client's team to understand and maintain the application."
+      },
+      {
+          number: "09",
+          title: "Performance Optimization:",
+          description: "Optimizing the application's performance to ensure speed and responsiveness. Conducting load testing to ensure the application can handle expected traffic volumes."
+      },
+      {
+          number: "10",
+          title: "Scalability and Growth Planning:",
+          description: "Planning for future growth and scalability of the application. Providing recommendations for feature enhancements and improvements based on user feedback and market trends."
+      },
+      {
+          number: "11",
+          title: "Cost Optimization:",
+          description: "Offering recommendations for optimizing infrastructure costs without compromising performance or reliability. Utilizing cost-effective solutions and services where applicable."
+      },
+      {
+          number: "12",
+          title: "Reporting and Analytics:",
+          description: "Implementing analytics tools to track user behavior and application performance. Providing regular reports on key metrics and performance indicators."
+      }
+  ];
+
+  // Function to populate data for each item
+  function populateItems() {
+      var dynamicContent = $("#manage-members-services");
+      $.each(itemsData, function(index, item) {
+          var html = '<div class="col-lg-4 col-md-6 col-sm-10">';
+          html += '<div class="about-single-items mt-30">';
+          html += '<span>' + item.number + '</span>';
+          html += '<h4>' + item.title + '</h4>';
+          html += '<p>' + item.description + '</p>';
+          html += '</div>'; // about single
+          html += '</div>'; // col
+          dynamicContent.append(html);
+      });
+  }
+
+  // Call the function to populate items
+  populateItems();
 });
